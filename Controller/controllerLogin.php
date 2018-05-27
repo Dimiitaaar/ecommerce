@@ -23,8 +23,11 @@ switch ($action) {
 
         /* Connection à la bdd */
 
-        define('USER', 'root');
-        define('PASSWORD', '');
+//        define('USER', 'root');
+//        define('PASSWORD', '');
+
+        define('USER', 'supervisor');
+        define('PASSWORD', 'supervisor');
 
         try {
             $co_db = 'mysql:host=localhost;dbname=ecommerce;charset=utf8';
@@ -81,4 +84,4 @@ switch ($action) {
 
 /* Vue de la page Login */
 
-include "/View/login.html";
+include "View/login.html";

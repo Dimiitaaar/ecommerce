@@ -1,3 +1,18 @@
+<style>
+    .thumb-hover {
+        background-color: white;
+        color: black;
+        -webkit-box-shadow: 0px 2px 31px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 2px 31px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 2px 31px 0px rgba(0,0,0,0.75);
+        transition: background-color 0s, color 0.5s linear;
+    }
+    .thumb-hover:hover {
+        background-color: grey;
+        color: white;
+    }
+</style>
+
 <div id="company" class="container-fluid" style="padding-top: 5vh">
     <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
@@ -7,73 +22,45 @@
                 </div>
             </div>
             <!-- Story -->
-            <section id="histoire" class="pt-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-3">
-                        <div class="">
-                            <h3 class="text-primary">Histoire</h3>
-                            <hr class="small">
-                            <p>Blablablablabla</p>
+
+            <div class="row">
+                <div class="col-12"  style="height: 400px; display: flex; justify-content: center; align-items: center;">
+
+                    <div class="row">
+
+
+                        <div class="thumb-hover" style="height: 300px; width: 20vw; margin-right: 2vw; display: flex; flex-direction: column">
+                            <div style="height: 20%; width: 100%; display: flex; justify-content: center; align-items: center;">
+                                <h5>Fiabilité</h5>
+                            </div>
+                            <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi turpis, interdum at sapien tempus, ornare convallis enim. Donec felis mauris, rutrum et consequat non, consectetur sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
                         </div>
-                    </div>
-                </div>
 
-            </section>
-
-            <!-- Présentation entreprise -->
-            <section id="entreprise" class="pt-5">
-                <div class="row justify-content-center pt-5">
-                    <div class="col-lg-3">
-                        <div class="">
-                            <h3 class="text-primary">Fiabilité</h3>
-                            <hr class="small">
+                        <div class="thumb-hover" style="height: 300px; width: 20vw; margin-right: 2vw; display: flex; flex-direction: column">
+                            <div style="height: 20%; width: 100%; display: flex; justify-content: center; align-items: center;">
+                                <h5>Analyse & Conseil</h5>
+                            </div>
+                            <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi turpis, interdum at sapien tempus, ornare convallis enim. Donec felis mauris, rutrum et consequat non, consectetur sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
                         </div>
-                        <p>Optimisation & fiabilité des composants pour que nos produits soient le plus performant et le plus à jour possible.</p>
-                    </div>
-                    <div class="offset-3 col-lg-3">
-                        <div class="">
-                            <h3 class="text-primary">Innovation/Qualité</h3>
-                            <hr class="small">
+
+                        <div class="thumb-hover" style="height: 300px; width: 20vw; margin-right: 2vw; display: flex; flex-direction: column">
+                            <div style="height: 20%; width: 100%; display: flex; justify-content: center; align-items: center;">
+                                <h5>Service Après-Vente</h5>
+                            </div>
+                            <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi turpis, interdum at sapien tempus, ornare convallis enim. Donec felis mauris, rutrum et consequat non, consectetur sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
                         </div>
-                        <p>Recherche & Développement afin que nos produits vous satisfaite pleinement.</p>
-                    </div>
-            </section>
 
+                        <div class="thumb-hover" style="height: 300px; width: 20vw; margin-right: 2vw; display: flex; flex-direction: column">
+                            <div style="height: 20%; width: 100%; display: flex; justify-content: center; align-items: center;">
+                                <h5>Satisfaction</h5>
+                            </div>
+                            <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi turpis, interdum at sapien tempus, ornare convallis enim. Donec felis mauris, rutrum et consequat non, consectetur sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                        </div>
 
-            <!-- Métiers -->
-            <section class="row justify-content-center pt-5" id="occupation">
-                <div class="col-lg-3">
-                    <div class="">
-                        <h3 class="text-primary">Analyse/Conseil</h3>
-                        <hr class="small">
                     </div>
-                    <p>Analyse de votre besoin ainsi qu'une aide professionnelle afin de trouver le produit idéal pour chacun d'entre vous.</p>
-                </div>
-                <div class="offset-3 col-lg-3">
-                    <div class="">
-                        <h3 class="text-primary">Satisfaction</h3>
-                        <hr class="small">
-                    </div>
-                    <p>L'un de nos principals objectifs est la satisfaction de notre clientèle, les plus jeunes comme les plus âgés.</p>
-                </div>
-            </section>
-            <section class="row justify-content-center">
-                <div class="col-lg-3">
-                    <div class="">
-                        <h3 class="text-primary">Service Après-Vente</h3>
-                        <hr class="small">
-                    </div>
-                    <p>Service mis en place en cas de non-satisfaction de tous types de la clientèle avec les produits d'IQuipment.</p>
-                </div>
-                <div class="offset-3 col-lg-3">
-                    <div class="">
-                        <h3 class="text-primary">Fidélité</h3>
-                        <hr class="small">
-                    </div>
-                    <p>Recherche permanente afin de vous satisfaire au maximum, que vous soyez un de nos plus anciens client ou un des plus récents.</p>
-                </div>
-            </section>
 
+                </div>
+            </div>
 
             <!-- Maps -->
             <section class="row justify-content-center pt-5" id="contact">

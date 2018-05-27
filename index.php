@@ -17,23 +17,23 @@ ob_start();
  switch ($page) {
 
      case 'home' :
-         include "/Controller/controllerHome.php";
+         include "Controller/controllerHome.php";
          break;
 
      case 'signin' :
-         include "/Controller/controllerSignin.php";
+         include "Controller/controllerSignin.php";
          break;
 
      case 'login' :
-         include "/Controller/controllerLogin.php";
+         include "Controller/controllerLogin.php";
          break;
 
      case 'product' :
-         include "/Controller/controllerProduct.php";
+         include "Controller/controllerProduct.php";
          break;
 
      case 'company' :
-         include "/Controller/controllerCompany.php";
+         include "Controller/controllerCompany.php";
          break;
 
      default:
@@ -47,4 +47,4 @@ ob_start();
  */
  $content = ob_get_clean();
 
-     include "/View/template.php";
+     include "View/template.php";

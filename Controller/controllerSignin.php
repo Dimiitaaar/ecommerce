@@ -19,8 +19,11 @@
             $mdp = $_REQUEST['mdp'];
 
             //constante pour user et password de la bdd
-            define('USER', 'root');
-            define('PASSWORD', '');
+//            define('USER', 'root');
+//            define('PASSWORD', '');
+
+            define('USER', 'supervisor');
+            define('PASSWORD', 'supervisor');
 
             try{
                 $co_db = 'mysql:host=localhost;dbname=ecommerce;charset=utf8';
@@ -50,4 +53,4 @@
 
     }
 
-    require "/View/signin.html";
+    require "View/signin.html";
