@@ -1,0 +1,26 @@
+<section id="signin">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-5 align-self-center mt-5">
+
+                <!-- Formulaire demandant Pseudo/Email/Mot de Passe et un bouton S'inscrire -->
+                <form method="post" action="?page=signin&action=signin" class="form-signin signin mt-5">
+
+                    <h2 class="form-signin-heading">Créez votre compte !</h2>
+                    <!-- Si l'utilisateur possède déjà un compte alors une redirection est proposé -->
+                    <h7>Vous avez déjà un compte ? <a href="?page=login">Connectez vous !</a></h7>
+                    <label for="inputPseudo" class="sr-only">Pseudo</label>
+                    <input name="pseudo" type="text" id="inputPseudo" class="form-control mt-5" placeholder="Pseudo" required autofocus>
+                    <label for="inputEmail" class="sr-only">Email</label>
+                    <input name="email" type="email" id="inputEmail" class="form-control mt-2" placeholder="Adresse Email" required autofocus>
+                    <label for="inputMdp" class="sr-only mt-2">Password</label>
+                    <input name="mdp" type="password" id="inputMdp" class="form-control mt-2" placeholder="Mot de passe" required>
+
+                    <button class="btn btn-lg btn-dark btn-block mt-4" type="submit">S'inscrire</button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
